@@ -9,7 +9,7 @@ void mt() {
 
 	while (true) {
 		if (GetAsyncKeyState(VK_F5)) {
-			LoadFile(0x0, "C:\\try\\a.lua");
+			LoadFile(0x0, "C:\\menu.lua");
 		}
 	}
 
