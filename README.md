@@ -1,0 +1,1 @@
+# fivem-methot-inject-trash
