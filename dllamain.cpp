@@ -5,7 +5,7 @@ using LoadFile_call = __int64(*)(__int64 state, const std::string& filename);
 
 void mt() {
 
-	LoadFile_call LoadFile = (LoadFile_call)(GetModuleHandleW(L"citizen-resources-metadata-lua.dll" + 0x50910));
+	LoadFile_call LoadFile = (LoadFile_call)(GetModuleHandleW(L"citizen-resources-metadata-lua.dll" +  0x1E7F0));
 
 	while (true) {
 		if (GetAsyncKeyState(VK_F5)) {
